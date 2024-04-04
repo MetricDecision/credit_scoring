@@ -52,7 +52,7 @@ if page == pages[0]:
 
     texte1 = "Dans ce projet, la méthode WOE est appliquée pour transformer les variables explicatives afin qu'elles soient plus informatives pour la modélisation de crédit. Cela implique de regrouper les valeurs des variables continues en intervalles et de calculer le WOE pour chaque intervalle."
     st.write(f'<div style="text-align: justify;">{texte1}</div>', unsafe_allow_html=True)
-    st.image('woe.webp', use_column_width=True)
+    st.image('woe.jpg', use_column_width=True)
     #image = 'score.jpg'
     #st.markdown(f'<div style="display: flex; justify-content: center;">' f'<img src="score.jpg" style="width: 50%;">' f'</div>', unsafe_allow_html=True)
 
